@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black to-gray-900 text-white">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
+      <section className="relative min-h-screen flex flex-col items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#10192b] z-10" />
         </div>
-        <div className="absolute inset-0 z-0 px-4 mx-auto w-full left-56">
+        <div className=" z-0 sm:pl-56 mx-auto w-full left-56">
           <Image
           src="/logo/main.jpeg"
           alt=""
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="max-w-4xl">
             <h1 className="text-6xl md:text-8xl font-bold mb-4">Masterpiece Production</h1>
             <p className="text-2xl md:text-3xl mb-8 text-gray-300">Empowering Entrepreneurs, Elevating Dreams</p>
-            <button className="inline-flex items-center bg-[#df740f] hover:bg-orange-600 text-black px-8 py-6 text-lg rounded-full transition-colors">
+            <button className="inline-flex items-center bg-[#df740f] hover:bg-orange-600 text-black px-6 py-4 text-lg rounded-full transition-colors">
               Apply Now
               <ArrowRight className="ml-2" />
             </button>
@@ -148,7 +148,7 @@ export default function Home() {
             Whether you're a celebrity launching a new business, an entrepreneur with a dream, or a partner looking to
             collaborate, Masterpiece Production is here to help you shine.
           </p>
-          <button className="inline-flex items-center bg-[#df740f] hover:bg-orange-600 text-black px-8 py-6 text-lg rounded-full transition-colors">
+          <button className="inline-flex items-center bg-[#df740f] hover:bg-orange-600 text-black px-6 py-4 text-lg rounded-full transition-colors">
             Apply Now
             <ArrowRight className="ml-2" />
           </button>
